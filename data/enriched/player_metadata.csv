@@ -1,0 +1,30 @@
+Player,API_Name,Player_ID,Nationality,Age_API,Height_cm,Weight_kg,Broad_Position
+Ayyoub Bouaddi,Ayyoub Bouaddi,31087,France,18.0,,,Midfielder
+Nnamdi Collins,Nnamdi Collins,10296,Germany,21.0,,,Defender
+Pau Cubarsí,Pau Cubarsí Paredes,10392,Spain,18.0,,,Defender
+El Hadji Malick Diouf,El Hadji Malick Diouf,7104,Senegal,20.0,183.0,,Midfielder
+Etta Eyong,Karl Edouard Blaise Etta Eyong,7013,Cameroon,,,,Midfielder
+Mateus Fernandes,Mateus Gonçalo Espanha Fernandes,30544,Portugal,21.0,178.0,,Midfielder
+Matias Fernandez-Pardo,Matias Fernandez-Pardo,31197,,56.0,183.0,70.0,Midfielder
+Malick Fofana,Malick Martin Fofana,10345,Belgium,20.0,169.0,61.0,Forward
+Arda Güler,Arda Güler,10219,Turkey,20.0,176.0,71.0,Midfielder
+Mikel Jauregizar,Mikel Jauregizar Alboniga,29692,Spain,22.0,,,Midfielder
+Mateo Joseph,Mateo Joseph Fernández Regatillo,33356,Spain,22.0,173.0,68.0,Forward
+Joshua King,Joshua King,40027,England,18.0,,,Midfielder
+Adrián Liso,Adrian Liso Lahoz,33421,Spain,20.0,,,Midfielder
+Mario Martín,Mario Martín Rielves,33345,Spain,21.0,,,Midfielder
+Franco Mastantuono,Franco Mastantuono,29703,Argentina,18.0,180.0,,Midfielder
+Christian Mawissa,Christian Mawissa Elebi,29524,France,20.0,,,Defender
+Antoine Mendy,Antoine Mendy,6732,France,21.0,187.0,62.0,Defender
+Yankuba Minteh,Yankuba Minteh,7021,Gambia,21.0,180.0,,Forward
+Kojo Peprah Oppong,Kojo Peprah Oppong,7412,Ghana,,,,Midfielder
+Joel Roca,Joel Roca Casals,33397,Spain,,,,Midfielder
+Álvaro Rodríguez,Álvaro Daniel Rodríguez Muñoz,33346,Uruguay,21.0,192.0,,Forward
+Noah Sadiki,Noah Sadiki,6948,Belgium,21.0,173.0,,Midfielder
+Hugo Sotelo,Hugo Sotelo,33461,Spain,21.0,,,Midfielder
+Chemsdine Talbi,Chemsdine Talbi,7018,Belgium,20.0,175.0,,Forward
+Luka Vušković,Luka Vušković,10380,Croatia,18.0,193.0,,Defender
+Adam Wharton,Adam Wharton,10262,England,,,,Defender
+Yehor Yarmoliuk,Ehor Yarmolyuk,10080,Ukraine,21.0,180.0,72.0,Midfielder
+Leny Yoro,Leny Yoro,40006,France,20.0,190.0,,Defender
+Warren Zaïre-Emery,Warren Zaïre-Emery,10367,France,19.0,178.0,70.0,Midfielder
