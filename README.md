@@ -1,30 +1,49 @@
-# wonderkid-ai
 # WonderKid AI
 
-AI-powered football scouting system for identifying elite U21 talents using statistical analysis and position-specific evaluation.
+An AI-powered football scouting platform that identifies elite U21 talents using statistical analysis, position-specific evaluation, and machine learning.
 
 ## Features
 
-- Filter players aged 16–21
-- Automated preprocessing pipeline
-- Player metadata integration
-- Position-aware dataset generation
-- WonderKid scoring system (coming soon)
+- FBref statistical analysis
+- U21 player filtering
+- Manual metadata integration(reference from Transfermarkt)
+- Position-specific scouting
+- WonderKid scoring system
+- Machine learning prediction *(coming soon)*
 
 ## Tech Stack
 
 - Python
 - Pandas
 - NumPy
-- FBref Dataset
-- FootballData.io API (metadata exploration)
+- Scikit-learn
+- Git
+- GitHub
 
-## Current Progress
+## Project Structure
+
+```
+data/
+    raw/
+    metadata/
+    enriched/
+    processed/
+
+src/
+    preprocess.py
+    merge_data.py
+    score.py
+    train.py
+    predict.py
+```
+
+## Roadmap
 
 - [x] Data preprocessing
 - [x] Metadata integration
-- [x] Dataset merge
+- [x] WonderKid dataset
 - [ ] Position-specific scoring
-- [ ] Similar player recommendation
-- [ ] AI scouting reports
+- [ ] Machine learning model
+- [ ] Similar player search
+- [ ] AI scouting report generation
 - [ ] Web application
