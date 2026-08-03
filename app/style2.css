@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg: #060B14;
+    --panel: #0D1420;
+    --panel-alt: #101B2B;
+    --header-bg: #0A0F1A;
+    --cyan: #00D9FF;
+    --cyan-dim: rgba(0, 217, 255, 0.35);
+    --green: #2EE6A6;
+    --amber: #FFB84D;
+    --text: #E7ECF5;
+    --muted: #7C8797;
+    --border: rgba(0, 217, 255, 0.18);
+}
+
+/* ---------- AgGrid — Streamlit theme overrides ---------- */
+
+.ag-root-wrapper {
+    --ag-background-color: var(--panel);
+    --ag-odd-row-background-color: var(--panel-alt);
+    --ag-header-background-color: var(--header-bg);
+    --ag-header-foreground-color: var(--cyan);
+    --ag-foreground-color: var(--text);
+    --ag-border-color: var(--border);
+    --ag-row-hover-color: rgba(0, 217, 255, 0.08);
+    --ag-selected-row-background-color: rgba(46, 230, 166, 0.12);
+    --ag-font-family: 'Space Grotesk', sans-serif;
+    --ag-header-column-separator-display: block;
+    --ag-header-column-separator-color: rgba(0, 217, 255, 0.15);
+    --ag-range-selection-border-color: var(--cyan);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+.ag-header{
+    background:#0A0F1A !important;
+    border-bottom:1px solid var(--border);
+}
+
+.ag-theme-streamlit .ag-header-cell-label {
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+}
+
+.ag-row:hover{
+    background:rgba(0,217,255,.08)!important;
+    transition:.2s;
+}
+
+.ag-theme-streamlit .ag-paging-panel {
+    background: var(--header-bg);
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    border-top: 1px solid var(--border);
+}
+
+.ag-theme-streamlit .ag-icon {
+    color: var(--cyan);
+}
+
+.ag-theme-streamlit .ag-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.ag-theme-streamlit .ag-cell-value {
+    display: flex;
+    align-items: center;
+}
+
+/* ---------- page furniture (eyebrow / caption to match dashboard) ---------- */
+
+.hud-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--muted);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* ---------- avatar / flag / badge cell renderers ---------- */
+/* (referenced by the JsCode renderers in wonderkid_list.py — kept here
+   so both the injected <style> block and the JS cellRenderers share
+   one source of truth for the palette) */
+
+.wk-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--cyan), var(--green));
+    color: var(--bg);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.wk-flag {
+    height: 16px;
+    margin-top: 8px;
+    border-radius: 2px;
+    border: 1px solid var(--cyan-dim);
+}
+
+.wk-badge-fallback {
+    display: inline-block;
+    padding: 2px 6px;
+    margin-top: 4px;
+    background: var(--panel-alt);
+    border: 1px solid var(--cyan-dim);
+    border-radius: 4px;
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+}
+
+.wk-badge-logo {
+    height: 22px;
+    margin-top: 6px;
+}
+
+.wk-score {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+}
+
+.wk-score-elite { color: var(--green); }
+.wk-score-high { color: var(--cyan); }
+.wk-score-mid { color: var(--amber); }
+.wk-score-low { color: var(--muted); }
